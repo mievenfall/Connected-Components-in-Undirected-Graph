@@ -20,7 +20,7 @@ public class Prog1 {
         }
 
         // Read input file 
-        File file = new File(args[0]);
+        File file = new File("../input/" + args[0]);
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         String line;
